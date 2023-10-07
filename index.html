@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mamatha-portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color:white;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(36, 190, 190);
+            height: 80px;
+            color: rgb(44, 21, 100);
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+        nav ul li {
+
+
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+
+            text-decoration: none;
+
+
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            text-decoration: none;
+            font-size: 1em;
+
+        }
+
+        main hr {
+            color: black;
+            background-color: #6d6c69;
+            margin: 30px 40px;
+            height: 1.2px;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+
+        .left {
+            font-size: 1.5em;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+
+        }
+
+        .firstsection>div {
+
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2em;
+            margin: 40px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 0px;
+
+
+        }
+
+        .leftsection span {
+            color: blue;
+        }
+
+        .secondsection {
+            margin: 40px 84px;
+            max-width: 80vw;
+            width: 80%;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5em;
+            border: 1.2px;
+
+        }
+
+        .secondsection .box {
+            background: #4b2a8a;
+            width: 69vw;
+            height: 1.5px;
+            margin: 60px 0px;
+            display: flex;
+        }
+
+
+        .secondsection .vertical {
+
+            height: 93px;
+            width: 2px;
+            background-color: #4b2a8a;
+            margin: 0px 100px;
+        }
+
+        .img-top {
+            position: relative;
+            top: -45px;
+            width: 56px;
+            margin: 0px -25px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 160px;
+
+            top: 37px;
+            left: 0px
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 34px;
+            color: brown;
+            width: 190px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: aqua;
+            height: 300px;
+            position: relative;
+            top: 250px;
+        }
+
+        .footer .footer-first {
+            position: relative;
+            top: 34px;
+            width: 349px;
+            left: -93px;
+        }
+
+        .footer {
+
+            display: flex;
+            margin: 23px 100px;
+           
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer .footer-center-text {
+            text-align: center;
+        }
+
+        .footer >div {
+            width: 233px;
+    margin: 51px 52px;
+    position: relative;
+    top: 21px;
+    left: 56px;
+
+        }
+
+        .footer .footer-center-text {
+            text-align: center;
+            color: #6d6c69;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">mamatha-portifolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About me</a></li>
+                    <li><a href="./certificates.html">My Certificates</a></li>
+                    <li><a href="./contact_me.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi!,My name is <span>Mamatha Venukanti</span>
+                <div>
+                    and I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="sf2.png.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">
+                What I have done so far
+            </span>
+            <h1>My Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="dev1.webp" alt="">
+                    <div class="vertical-title">Smart Parking System</div>
+                    <div class="vertical-desc">Developed a Python-based project to replace traditional parking system  </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev1.webp" alt="">
+                    <div class="vertical-title">Thyroid Disease Prediction </div>
+                    <div class="vertical-desc"> in this project, predictions were made by using Machine Learning regrading the accuracy of Thyroid affecting males and females, which age group is most susceptible to thyroid issues. </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev1.webp" alt="">
+                    <div class="vertical-title">Hotel Management System</div>
+                    <div class="vertical-desc">Experienced in hotel website development, integrating room availability, location details, user authentication, guest reviews, testimonials, food menus, offers, and facilities. Contributed to optimizing guest satisfaction and revenue through user-friendly online platforms.. </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev1.webp" alt="">
+                    <div class="vertical-title">ChatBot implementation in frontend website </div>
+                    <div class="vertical-desc">implemented a ChatBot on our website using machine learning by Dialogflow cloud for direct negotiation or communication with managers. </div>
+                </div></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mamatha's Portifolio
+                </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About me</a></li>
+                    <li><a href="./certificates.html">My Certificates</a></li>
+                    <li><a href="./contact_me.html">Contact me</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <div><li><a href="./index.html">Home</a></li></div>
+                    <li><a href="./aboutme.html">About me</a></li>
+                    <li><a href="./certificates.html">My Certificates</a></li>
+                    <li><a href="./contact_me.html">Contact me</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About me</a></li>
+                    <li><a href="./certificates.html">My Certificates</a></li>
+                    <li><a href="./contact_me.html">Contact me</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-center-text">
+            <h3>>>www.mamathaportifolio.com 
+               </h3>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer ','Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
